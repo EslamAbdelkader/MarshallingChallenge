@@ -11,6 +11,7 @@ public class PrimitiveTypes implements JsonMarshalInterface
     public float primFloat;
     private double primDouble;
     public boolean primBoolean;
+    public boolean[] primBooleanArray;
 
     public byte[] primByteArray;
 
@@ -24,6 +25,7 @@ public class PrimitiveTypes implements JsonMarshalInterface
         primDouble = 42.123456789012345;
         primBoolean = true;
         primByteArray = new byte[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 14};
+        primBooleanArray = new boolean[]{true,true,false};
     }
 
     @Override
