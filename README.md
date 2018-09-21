@@ -34,9 +34,9 @@ public static boolean unmarshalJSON(Object object, JSONObject json)
 
 ### Solution
 
-* Task is implemented using only reflection as stated.
-* The implementation includes a recursive solution to marshal any java class the implements Marshal interface, as long as all its fields are either primitives, wrappers, strings, JSONObjects, JSONArrays, one dimension and multidimensional arrays. And of course unmarshaling them back.
-* The solution does not support marshaling or unmarshaling Generic classes.
+Task is implemented using only reflection as stated.
+The implementation includes a recursive solution to marshal any java class the implements Marshal interface, as long as all its fields are either primitives, wrappers, strings, JSONObjects, JSONArrays, one dimension and multidimensional arrays. And of course unmarshaling them back.
+The solution does not support marshaling or unmarshaling Generic classes.
 
 ### Note
 I have added a multidimensional array in the SubclassTypes class and an array in PrimitiveTypes class, to be able to test them, since the test case doesn't cover that.
