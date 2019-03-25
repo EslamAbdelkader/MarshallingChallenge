@@ -1,4 +1,4 @@
-# challenge.java
+# Marshalling Challenge
 Android Studio / Java Challenge new Candidates
 
 This is an Android Studio project. 
